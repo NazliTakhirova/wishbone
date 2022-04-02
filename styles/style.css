@@ -1,0 +1,283 @@
+/* poppins 400 fontti */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* linklarga unversal style */
+a {
+  text-decoration: none;
+}
+/* buttonga unversal style */
+button {
+  border: none;
+}
+/* navigation */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 140px 22px 152px;
+}
+.name p {
+  font-size: 19px;
+  line-height: 24px;
+}
+.thin {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 600;
+}
+.links button {
+  padding: 11px 20px;
+  border-radius: 14px;
+  background: #1b1a1a;
+  color: #fff;
+  cursor: pointer;
+}
+.links a {
+  margin-right: 32px;
+  font-size: 15px;
+}
+/* infoWrapper qismi */
+.infoWrapper {
+  display: flex;
+  height: 100vh;
+}
+/* qismlarga bo'lamiz */
+.infoWrapper > div {
+  flex: 50%;
+}
+.child1 {
+  padding: 137px 0px 128px 100px;
+  background: #ece7e4;
+}
+.child1 span {
+  margin-bottom: 20px;
+  color: #645c55;
+}
+.child1 h1 {
+  font-size: 64px;
+  line-height: 70px;
+  margin-bottom: 18px;
+}
+.child1 p {
+  color: #403e3b;
+  line-height: 24px;
+}
+.child1 button {
+  padding: 15px 25px;
+  background: inherit;
+  letter-spacing: 0/4px;
+  line-height: 24px;
+}
+.child2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* text qismi */
+.text {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 344px 128px 300px;
+}
+.text div {
+  width: 493px;
+}
+.mainText {
+  text-align: center;
+  font-size: 32px;
+  line-height: 38px;
+}
+.captionText > p {
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+}
+
+.comment img {
+  margin-right: 30px;
+}
+
+.comment .authorName + .lavozim {
+  display: block;
+}
+
+.authorName {
+  color: #1b1a1a;
+  font-size: 17px;
+  line-height: 26px;
+}
+.lavozim {
+  color: #645c55;
+  font-size: 14px;
+  line-height: 17px;
+}
+.banner1 {
+  position: relative;
+  height: 100vh;
+}
+
+.banner1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.position {
+  position: absolute;
+  top: 266px;
+  right: 75px;
+}
+.head {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #403e3b;
+}
+.cap {
+  line-height: 24px;
+  color: #645c55;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.firstText {
+  line-height: 20px;
+  color: #645c55;
+  text-align: center;
+
+  letter-spacing: 2px;
+}
+.secondText {
+  text-align: center;
+  color: #1b1a1a;
+  font-weight: 200px;
+  font-size: 39px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  margin: 13px;
+}
+.wrapperAdvice {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 47px;
+}
+.wrapperAdvice > .sketching {
+  width: 295px;
+}
+
+.banner2 {
+  position: relative;
+}
+.birinchisuz {
+  color: #403e3b;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.ikkinchisuz {
+  color: #645c55;
+  font-size: 16px;
+}
+
+.aboutComp {
+  background: #403e3b;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.aboutComp > div {
+  flex: 450px;
+}
+
+.supHeader {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ece7e4;
+}
+
+.child-1 > h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ece7e4;
+}
+
+.child-1 > h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #fff;
+}
+
+.child-2 > div {
+  display: flex;
+}
+
+.line1,
+.line2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.line1 {
+  margin-bottom: 50px;
+}
+
+.banner3 {
+  position: relative;
+}
+
+.staircase {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #403e3b;
+}
+
+.position {
+  position: absolute;
+  float: right;
+}
+
+.staircase2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #645c55;
+}
+
+@media only screen and (max-width: 576px) {
+}
